@@ -1,0 +1,99 @@
+<html>
+<head>
+  <style>
+  body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+
+  .bg-img {
+    /* The image used */
+    background-image: url("http://localhost:3000/images/darwinbox.jpg");
+    position:float;
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .row {
+
+    position: fixed;
+    right:10px;
+    bottom:10px;
+  }
+  .container {
+    position: absolute;
+    right: 10px;
+    bottom:10px;
+    margin: 40px;
+    max-width: 600px;
+    padding: 16px;
+    background-color: grey;
+  }
+
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #3150CB;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+  }
+
+  .btn:hover {
+    opacity: 1;
+  }
+  .left
+  {
+    text-align: left;
+  }
+  .right
+  {
+    text-align: right;
+  }
+  .right1
+  {
+    text-align: right;
+  }
+  .left1
+  {
+    text-align: right;
+  }
+  </style>
+  <script>
+  function func()
+  {
+    setTimeout(function(){window.location="http://localhost:3000/chat" }, 3000);
+  }
+  </script>
+  <body onload=func() class="bg-img">
+    <div class="row">
+      <a href="http://localhost:3000/chat">
+        <img src="http://localhost:3000/images/tenor.gif", height = 50 width = 50/></a>
+      </div>
+    </body>
+    </html>
